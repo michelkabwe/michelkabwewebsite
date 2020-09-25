@@ -67,9 +67,7 @@ img.family {
 
 }
 
-nav {
-  display: none !important;
-}
+
 
 p.informative-line {
   font-family: Fira Sans;
@@ -139,6 +137,8 @@ article {
       padding:35px;
 
 }
+
+
 
 
 h1.welcome-line-white {
@@ -328,9 +328,10 @@ p.box-line {
   justify-content: center;
 }
 
-div.section7-grid2 {
+.section7-grid2 {
   display: none;
 }
+
 
 footer {
   width: 375px;
@@ -348,13 +349,12 @@ footer {
 @media screen and (min-width: 1002px){
 .body {
   width: 1002px;
-  background-color: yellow;
   margin: auto;
 
 }
 }
 
-@media all and (min-width:1002px){
+@media screen and (min-width:1002px){
   .grid-container {
     height: 544px;
     display: grid;
@@ -368,7 +368,7 @@ footer {
  }
 }
 
-@media all and (min-width:1002px){
+@media screen and (min-width:1002px){
 main {
  background-color: #C7DDEA;
  display: flex;
@@ -389,8 +389,9 @@ img.family {
     height: 324px;
     position: relative;
     padding: 14px 16px;
-    margin-top: -72px;
-    left: 65px;
+    margin-top: -34px;
+    left: 177px;
+    position:absolute;
   }
 
 }
@@ -445,7 +446,7 @@ img.family {
  }
  }
 
- @media all and (min-width: 1002px){
+ @media screen and (min-width: 1002px){
   nav a {
    color: #A9A19E;
 
@@ -464,7 +465,7 @@ img.family {
   }
 }
 
-  @media all and (min-width: 1002px){
+  @media screen and (min-width: 1002px){
    li.item {
 
    }
@@ -487,7 +488,7 @@ img.family {
 
 
 
-   @media screen and(min-width: 1002px){
+   @media screen and (min-width: 1002px){
    .section2 {
     background-color: #FAB131;
     grid-area: box4;
@@ -523,6 +524,7 @@ img.family {
       align-items: center;
       gap: 10px;
       padding: 132px 108px;
+      margin-bottom:-61px;
     }
 }
 
@@ -549,10 +551,33 @@ img.family {
    justify-content: center;
    align-items: center;
    flex-direction: column;
-   padding: 10px 300px;
+   width: 100%;
 
   }
   }
+
+  @media screen and (min-width: 1002px){
+      button.btn.btn-light {
+        margin-top: 42px;
+
+
+
+      }
+    }
+
+    @media screen and (min-width: 1002px){
+        h1.welcome-line-white{
+          padding: 10px;
+          margin-top: 38px;
+          font-size: 36px;
+
+
+
+
+        }
+      }
+
+
 
   @media screen and (min-width: 1002px){
       .grid-container-2 {
@@ -560,7 +585,7 @@ img.family {
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr;
         grid-column: 1/3;
-        height: 544px;
+        height: 100%;
 
 
       }
@@ -648,17 +673,15 @@ img.family {
       }
     }
 
-  @media screen and (min-width:1002px){
-    footer {
-      grid-column: 1/4;
-      background-color: #777574;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 350px;
-      width: 100%;
+    @media screen and (min-width:1002px){
+      footer {
+        grid-column: 1/4;
+        background-color: #777574;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+        width: 100%;
 
-
-
-    }
-    }
+      }
+      }
