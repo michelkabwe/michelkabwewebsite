@@ -34,7 +34,7 @@ h1.welcome-line {
 }
 
 p.welcome-line {
-  font-family: Fira Sans;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -152,7 +152,7 @@ h1.welcome-line-white {
 }
 
 p.welcome-line {
-  font-family: Fira Sans;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -201,7 +201,8 @@ p.article-1-titel {
 
 }
 .article-1-text {
-  font-family: Fira Sans;
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-weight: bold;
   font-size: 11px;
@@ -256,7 +257,7 @@ h1.titel-info {
 }
 
 p.box-line {
-  font-family: sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -437,12 +438,6 @@ img.family {
     justify-content: center;
     align-items: center;
     background-color: #EBEBEB;
-    font-family: Fira Sans;
-    font-weight: 600;
-    font-size: 12px;
-    text-align: center;
-    letter-spacing: -0.02em;
-
  }
  }
 
@@ -462,6 +457,12 @@ img.family {
     align-items: center;
     padding:35px;
     list-style: none;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: -0.02em;
+
   }
 }
 
@@ -661,17 +662,29 @@ img.family {
     }
 
     @media screen and (min-width:1002px){
-      .section7-grid2 {
+      .section7-grid2  {
         background-color: #A9A19E;
         width: 100%;
+        height: 100px;
         grid-column: 1/4;
         text-align: center;
         justify-content: center;
         display: flex;
         align-items: center;
-        height: 68px;
+
+
       }
     }
+
+    @media screen and (min-width:1002px){
+      .section7-grid2 a {
+        color: #000;
+
+
+      }
+    }
+
+
 
     @media screen and (min-width:1002px){
       footer {
